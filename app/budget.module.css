@@ -1,0 +1,53 @@
+#budgetList {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 50px;
+ margin-top: 30px;
+
+}
+.budgetBlock {
+	border-radius: 10px;
+	background: #d4d4d4;
+	padding: 15px;
+	justify-content: baseline;
+	align-items: center;
+
+	color: #665c55;
+	display: flex;
+}
+#remaining {
+	background: #90ee90;
+	color: #026340;
+}
+#spent {
+	background: #a6caf0;
+	color: #00406b;
+}
+#budgetList button{
+	background: black;
+	border: 1px solid black;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.3s;	
+	display: inline;
+	margin-left: auto;
+
+}
+
+#budgetList input {
+	padding: 5px;
+	display: none;
+}
+#budgetList .showBlock{
+	display: block;
+	
+}
+#budgetList .hideBlock {
+	display: none;
+}
+#budgetList button:hover {
+	background: none;
+	color: black;
+	cursor: pointer;
+}

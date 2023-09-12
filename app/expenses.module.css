@@ -1,0 +1,91 @@
+#expenses {
+	margin-top: 30px;
+}
+#expenses h2 {
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+#expenses input {
+	margin: auto;
+	display: block;
+	padding: 10px;
+	width: 40%;
+	margin-bottom: 30px;
+
+}
+#expensesList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+
+}
+.expense {
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+
+}
+.expense p {
+	font-weight: bold;
+}
+.expense div {
+	background: #42aaff;
+	border-radius: 20px;
+	color: white;
+	margin-left: auto;
+	padding: 5px;
+	margin-right: 10px;
+
+}
+.expense button {
+	background: #000;
+	color: white;
+	border: none;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	transition: all 0.3s;
+}
+.expense button:hover {
+	cursor: pointer;
+	background: white;
+	border: 1px solid black;
+	color :#000;
+}
+#addExpense {
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+#addExpense h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+#addExpense form {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: auto;
+
+}
+#addExpense form input {
+	margin: 10px 0px;
+	padding: 10px;
+}
+#addExpense form button {
+	background: #000;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	transition: all 0.3s;
+}
+#addExpense form button:hover {
+	cursor: pointer;
+	background: white;
+	border: 1px solid black;
+	color: black;
+}
